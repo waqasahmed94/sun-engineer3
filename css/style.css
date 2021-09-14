@@ -90,7 +90,7 @@ a:focus {
 .top-bar .logo h1 {
     margin: 0;
     color: #030f27;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 60px;
     font-weight: 700;
 }
@@ -497,7 +497,7 @@ a:focus {
 /*******************************/
 .feature {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 0px;
 }
 
 .feature .col-md-12 {
@@ -519,7 +519,7 @@ a:focus {
 
 .feature .feature-icon {
     position: relative;
-    width: 60px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -569,7 +569,7 @@ a:focus {
 .feature .feature-text h3 {
     margin: 0 0 10px 0;
     color: #fdbe33;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -578,6 +578,7 @@ a:focus {
     color: #fdbe33;
     font-size: 18px;
     font-weight: 400;
+    text-align: left;
 }
 
 .feature .col-md-12:nth-child(2n) [class^="flaticon-"]::before,
@@ -613,6 +614,7 @@ a:focus {
 
 .about .about-text p {
     font-size: 16px;
+    text-align: justify;
 }
 
 .about .about-text a.btn {
@@ -808,7 +810,7 @@ a:focus {
 /*******************************/
 .video {
     position: relative;
-    margin: 45px 0;
+    margin: 20px 0px;
     height: 100%;
     min-height: 500px;
     background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../img/carousel-1.jpg);
@@ -927,7 +929,7 @@ a:focus {
 /*******************************/
 /*********** Team CSS **********/
 /*******************************/
-.team {
+/* .team {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
@@ -1020,13 +1022,13 @@ a:focus {
     background: #3f729b;
     left: 50px;
     transition: .3s .3s;
-}
+} */
 
 
 /*******************************/
 /*********** FAQs CSS **********/
 /*******************************/
-.faqs {
+/* .faqs {
     position: relative;
     width: 100%;
     padding: 45px 0;
@@ -1126,7 +1128,7 @@ a:focus {
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, .1);
     border-top: none;
-}
+} */
 
 
 /*******************************/
@@ -1134,7 +1136,7 @@ a:focus {
 /*******************************/
 .testimonial {
     position: relative;
-    margin: 45px 0;
+    margin-top: 0px;
     padding: 90px 0;
     text-align: center;
     background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../img/carousel-1.jpg);
@@ -1224,7 +1226,7 @@ a:focus {
 /*******************************/
 /*********** Blog CSS **********/
 /*******************************/
-.blog {
+/* .blog {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
@@ -1344,13 +1346,13 @@ a:focus {
 
 .blog .pagination .disabled .page-link {
     color: #999999;
-}
+} */
 
 
 /*******************************/
 /******* Single Post CSS *******/
 /*******************************/
-.single {
+/* .single {
     position: relative;
     padding: 45px 0;
 }
@@ -1604,7 +1606,7 @@ a:focus {
 .single .comment-form .btn:hover {
     color: #fdbe33;
     background: #030f27;
-}
+} */
 
 
 /**********************************/
@@ -2056,7 +2058,7 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    margin-top: 0px;
     padding-top: 90px;
     background: #030f27;
     color: #ffffff;
@@ -2175,7 +2177,7 @@ a:focus {
     background: #fdbe33;
 }
 
-.footer .footer-menu .f-menu {
+/* .footer .footer-menu .f-menu {
     position: relative;
     padding: 15px 0;
     font-size: 0;
@@ -2190,7 +2192,7 @@ a:focus {
     margin-right: 15px;
     padding-right: 15px;
     border-right: 1px solid rgba(255, 255, 255, .1);
-}
+} 
 
 .footer .footer-menu .f-menu a:hover {
     color: #fdbe33;
@@ -2200,7 +2202,7 @@ a:focus {
     margin-right: 0;
     padding-right: 0;
     border-right: none;
-}
+} */
 
 
 .footer .copyright {

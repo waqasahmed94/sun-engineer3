@@ -507,6 +507,9 @@ a:focus {
 .feature .col-md-12 {
     background: #030f27;
 }
+.feature .serviceBlock{
+    margin-top: 10px;
+}
     
 .feature .col-md-12:nth-child(2n) {
     color: #030f27;
@@ -582,7 +585,7 @@ a:focus {
     color: #fdbe33;
     font-size: 18px;
     font-weight: 400;
-    text-align: left;
+    text-align: justify;
 }
 
 .feature .col-md-12:nth-child(2n) [class^="flaticon-"]::before,
@@ -697,7 +700,7 @@ a:focus {
 
 .fact .fact-text p {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
 }

@@ -1805,7 +1805,7 @@ a:focus {
 }
 
 .portfolio #portfolio-flters li,
-.portfolio .load-more .btn {
+.portfolio .load-more .btn-load {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
@@ -1829,14 +1829,12 @@ a:focus {
 .portfolio .load-more {
     text-align: center;
 }
-
-.portfolio .load-more .btn {
+.portfolio .load-more .btn-load {
     padding: 15px 35px;
     font-size: 16px;
     transition: .3s;
 }
-
-.portfolio .load-more .btn:hover {
+.portfolio .load-more .btn-load:hover {
     color: #fdbe33;
     background: #030f27;
 }
@@ -1888,25 +1886,25 @@ a:focus {
 
 .portfolio .portfolio-text {
     display: flex;
-    align-items: center;
-    height: 60px;
+    /* align-items: center; */
+    height: 100px;
     background: #030f27;
-    overflow: hidden;
+    /* overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
 }
 
 .portfolio .portfolio-text h3 {
     margin: 0;
-    padding: 0 15px 0 25px;
+    padding: 20px;
     width: calc(100% - 60px);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: #fdbe33;
-    text-align: center;
-    overflow: hidden;
+    text-align: center; 
+    /* overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
 }
 
 .portfolio .portfolio-warp a.btn {
